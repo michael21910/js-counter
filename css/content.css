@@ -1,0 +1,35 @@
+#title {
+    line-height: 15vw;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#title > span {
+    color: #f2f0dd;
+}
+
+#number {
+    font-size: 12.5vw;
+    text-align: center;
+}
+
+#btnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.5vh 0 3.25vh 0;
+}
+
+#btnContainer > a {
+    text-decoration: none;
+}
+
+#btnContainer > a > div {
+    font-size: 3vw;
+    color: #694635;
+    background-color: #f2f0dd;
+    padding: 0 5vw;
+    border-radius: 24px;
+    text-align: center;
+}
